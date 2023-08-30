@@ -1,0 +1,54 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "cabley", sans-serif;
+}
+body {
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c7d0e9;
+}
+.container {
+  position: relative;
+  max-width: 290px;
+  width: 100%;
+  border-radius: 14px;
+  padding: 12px 25px 25px;
+  background: #7ae622;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 78px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 14px;
+  font-size: 35px;
+  color: #000f1b;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 11px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #f1efef;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.function {
+  color: #1e79c9;
+}
